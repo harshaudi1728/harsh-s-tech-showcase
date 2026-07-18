@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Download, Mail, Github, Linkedin, ArrowDown, Sparkles } from "lucide-react";
-import profileAsset from "@/assets/harsh-profile.jpg.asset.json";
-const profile = profileAsset.url;
+import profile from "@/assets/profile.jpg";
 
 const roles = [
   "Full Stack Developer",
