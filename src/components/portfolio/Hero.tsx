@@ -78,7 +78,8 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1a56mJMcIuUwrHVSYcUOGqImLK4goCurF/view?usp=sharing"  target="_blank"
+                rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full gradient-bg px-6 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow)] hover:scale-105 transition-transform"
             >
               <Download size={16} /> Resume
